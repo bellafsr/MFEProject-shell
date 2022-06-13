@@ -35,7 +35,8 @@ module.exports = {
           "@angular/common": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
           "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
           "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
-
+          "@angular/animations": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
+          
           ...sharedMappings.getDescriptors()
         })
         
